@@ -1,0 +1,269 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: montserrat-bold;
+    src: url(Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: montserrat-regular;
+    src: url(Montserrat-Regular.ttf);
+}
+
+.navbar-brand{
+    font-weight: 700;
+    font-size: 24px;
+    font-family: montserrat-bold;
+    color: #252B42;
+    text-decoration: none;
+}
+
+.nav-link, .a2{
+    text-decoration: none !important;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: montserrat-bold;
+    color: #737373 !important;
+}
+.a2{
+    color: #23A6F0 !important;
+}
+.navbar1{
+    margin-left: 120px;
+}
+@media screen and (max-width:991px) {
+    .navbar1{
+        margin-left: 0;
+    }
+}
+
+.button1{
+    width: 214px;
+    height: 52px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    font-family: montserrat-bold;
+    color: #FFFFFF;
+}
+.fa-arrow-right{
+    margin-left: 15px;
+}
+.texts{
+    height: 518px;
+}
+.h5_contactus{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    line-height: 24px;
+}
+
+.h1_get{
+    font-weight: 700;
+    font-size: 58px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.h4_weknow{
+    font-weight: 400;
+    font-size: 20px;
+    color: #737373;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.h3_phone{
+    font-weight: 700;
+    font-size: 24px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+}
+.img_family{
+    width: 100%;
+    height: 742px;
+}
+
+.h6_visit{
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
+.h2_wehelp{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+}
+.card1{
+    height: 343px;
+}
+.card2{
+    height: 403px;
+}
+.card3{
+    height: 343px;
+}
+.pic1{
+    margin-top: 50px;
+}
+.pic2{
+    margin-top: 80px;
+}
+.pic3{
+    margin-top: 59px;
+}
+.georgia_y, .georgia_y2{
+    font-weight: 700;
+    font-size: 14px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: montserrat-bold;
+    text-align: center;
+}
+.georgia_y2{
+    color: #FFFFFF;
+}
+.support, .support2{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+.support2{
+    color: #FFFFFF;
+}
+.button2{
+    width: 189px;
+    height: 54px;
+    border: none;
+    border: 1px solid #23A6F0;
+    border-radius: 37px;
+    background: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #23A6F0;
+}
+.txt{
+    text-align: center;
+    color: #252B42;
+    font-family: montserrat-bold;
+}
+.h5_we{
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.1px;
+}
+.h1_lets{
+    font-weight: 700;
+    font-size: 58px;
+    letter-spacing: 0.2px;
+}
+.button3{
+    width: 186px;
+    height: 52px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: montserrat-bold;
+}
+.h3_bandag{
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+    font-family: montserrat-bold;
+}
+.hr1{
+    border: 1px solid #E6E6E6;
+}
+.h5_header{
+    font-weight: 700;
+    font-size: 16px;
+    color: #252B42;
+    font-family: montserrat-bold;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+}
+.a3{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-bold;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.inputdiv{
+    width: 321px;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+}
+.input1{
+    width: 204px;
+    height: 58px;
+    border: none;
+    background: #F9F9F9;
+    border-radius: 5px;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+}
+.input2{
+    width: 117px;
+    height: 58px;
+    border: none;
+    background: #23A6F0;
+    border-radius: 0px 5px 5px 0px;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+
+}
+.lore{
+    font-weight: 400;
+    font-size: 12px;
+    color: #737373;
+    font-family: montserrat-regular;
+    letter-spacing: 0.2px;
+}
+
+.background1{
+    height: 74px;
+    background: #FAFAFA;
+}
+.div_c{
+    height: 74px;
+}
+.h6_copyR{
+    font-weight: 700;
+    font-size: 14px;
+    color: #737373;
+    font-family: montserrat-bold;
+    letter-spacing: 0.2px;
+}
